@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.woff2') format('woff2'),
+        url('../fonts/Inter-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter_medium';
+    src: url('../fonts/Inter-Medium.woff2') format('woff2'),
+        url('../fonts/Inter-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter_bold';
+    src: url('../fonts/Inter-Bold.woff2') format('woff2'),
+        url('../fonts/Inter-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter_light';
+    src: url('../fonts/Inter-Light.woff2') format('woff2'),
+        url('../fonts/Inter-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter_semi_bold';
+    src: url('../fonts/Inter-SemiBold.woff2') format('woff2'),
+        url('../fonts/Inter-SemiBold.woff') format('woff');
+}
+
+
+.component {
+margin-left: 140px;
+margin-right: 140px;
+margin-top: 74px;
+ height: 220px;
+ border-radius: 4px;
+ background-image: url('../icons_picks/flowers.jpg');
+ background-size: cover;
+}
+
+.home_title {
+  font-family:'Inter_bold';
+  font-size: 28px;
+  padding-top: 40px;
+  padding-left: 80px;
+  color: #515D5B;
+}
+
+.home_paraph {
+  font-family: 'Inter_medium';
+  font-size: 18px;
+  padding-top: 10px;
+  padding-left: 80px;
+  padding-right: 690px;
+  margin-bottom: 26px;
+  color: #6B7675;
+  text-align: justify;
+}
+
+.button_home {
+  margin-left: 80px;
+  padding-left: 25px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 60px;
+  font-family: 'Inter';
+  font-size: 14px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #F0B701;
+  border-radius: 4px;
+}
+
+.blocktwo {
+  max-width: 1440px;
+  padding-left: 140px;
+  padding-right: 140px;
+  display: flex;
+}
+
+.first_block,
+.second_block {
+margin-top: 45px;
+width: 50%;
+height: 220px;
+background-image: url('../icons_picks/roses.jpg');
+background-size: cover;
+border-radius: 4px;
+}
+
+.first_block {
+  margin-right: 40px;
+}
+
+.block_text {
+  font-family: 'Inter';
+  color: #B43FB1;
+  margin-left: 280px;
+
+}
+
+.block_title {
+  margin-top: 45px;
+  font-size: 28px;
+  color: #9C1099;
+}
+
+.block_paraph {
+  font-family: 'Inter_medium';
+  font-size: 18px;
+  font-weight: normal;
+}
+
+
+.fird_block_title {
+margin-top: 85px;
+font-family: 'Inter_semi_bold';
+font-size: 24px;
+margin-left: 140px;
+}
+
+.fird_block {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 140px;
+}
+
+.arrow_block:hover {
+  color: #891E89;
+}
+
+.pick_package {
+  width: 260px;
+  height: 260px;
+}
+
+.fourth_block {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-top: 50px;
+}
+
+.pick_package{
+  border-radius: 4px;
+}
+
+.name_package{
+  font-family: 'Inter_medium';
+  font-size: 18px;
+}
+.flower_package{
+  display: flex;
+  justify-content: center;
+}
+
+.price_package {
+  font-family: 'Inter';
+  font-size: 14px;
+}
+
+.striped_price {
+  margin-left: 15px;
+  text-decoration: line-through;
+  color: #82828b;
+}
+
+.second_fird_block{
+  margin-top: 120px;
+}

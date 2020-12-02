@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.woff2') format('woff2'),
+        url('../fonts/Inter-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter_medium';
+    src: url('../fonts/Inter-Medium.woff2') format('woff2'),
+        url('../fonts/Inter-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter_bold';
+    src: url('../fonts/Inter-Bold.woff2') format('woff2'),
+        url('../fonts/Inter-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter_light';
+    src: url('../fonts/Inter-Light.woff2') format('woff2'),
+        url('../fonts/Inter-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter_semi_bold';
+    src: url('../fonts/Inter-SemiBold.woff2') format('woff2'),
+        url('../fonts/Inter-SemiBold.woff') format('woff');
+}
+
+.level{
+    margin-top: 50px;
+    font-family: 'Inter';
+    font-size: 12px;
+    padding-right: 10px;
+    padding-left: 140px;
+}
+
+.a_level {
+  text-decoration: none;
+  color: #000000;
+  margin-right: 10px;
+}
+
+.slash {
+  margin-left: 10px;
+}
+
+.title_level_four {
+  font-family: 'Inter';
+  font-size: 32px;
+  margin-top: 35px;
+  margin-left: 140px;
+}
+
+.text_items {
+  display: flex;
+  justify-content: space-between;
+}
+.texts_items_unwind {
+  margin-top: 45px;
+  margin-left: 140px;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text_items_unwind_block{
+  display: flex;
+}
+
+.icon_unwind{
+  width: 9px;
+  padding-top: 21px;
+  padding-left: 10px;
+}
+
+.text_items_paraph_first{
+  font-family: 'Inter';
+  font-size: 14px;
+}
+.text_items_paraph{
+  font-family: 'Inter';
+  font-size: 14px;
+  padding-left: 85px;
+}
+
+.items_paraph{
+  font-family: 'Inter';
+  font-size: 14px;
+  padding-top: 45px;
+  margin-right: 140px;
+}
+
+.line_type_something {
+  margin-top: 25px;
+margin-left: 140px;
+}
+
+.fourth_block {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-top: 50px;
+}
+.fourth_second_block{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-top: 80px;
+}
+
+.pick_package{
+  border-radius: 4px;
+}
+
+.name_package{
+  font-family: 'Inter_medium';
+  font-size: 18px;
+}
+.flower_package{
+  display: flex;
+  justify-content: center;
+}
+
+.price_package_product {
+  font-family: 'Inter';
+  font-size: 14px;
+}
+
+.striped_price {
+  margin-left: 15px;
+  text-decoration: line-through;
+  color: #82828b;
+}
+
+.pick_package_product {
+  width: 260px;
+  height: 260px;
+}
+
+.button_catalog_page{
+  display: flex;
+  justify-content: center;
+}
+.button_catalog{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-family: 'Inter';
+  font-size: 14px;
+  margin-top: 80px;
+  width: 220px;
+  height: 45px;
+  color: #FFFFFF;
+  background-color: #6e70ff;
+  border-radius: 4px;
+}

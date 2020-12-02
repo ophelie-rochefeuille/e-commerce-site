@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.woff2') format('woff2'),
+        url('../fonts/Inter-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter_medium';
+    src: url('../fonts/Inter-Medium.woff2') format('woff2'),
+        url('../fonts/Inter-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter_bold';
+    src: url('../fonts/Inter-Bold.woff2') format('woff2'),
+        url('../fonts/Inter-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter_light';
+    src: url('../fonts/Inter-Light.woff2') format('woff2'),
+        url('../fonts/Inter-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter_semi_bold';
+    src: url('../fonts/Inter-SemiBold.woff2') format('woff2'),
+        url('../fonts/Inter-SemiBold.woff') format('woff');
+}
+
+.Home {
+  max-width: 100%;
+  background-color: #ffffff;
+}
+
+.block {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin-left: 140px;
+  margin-right: 140px;
+height: 56px;
+
+}
+
+.cassiopeia {
+  width: 112px;
+height: 33px;
+padding-left: 25px;
+}
+
+.city {
+  font-family: 'Inter';
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 7px;
+}
+.combined_Shape {
+  width: 9px;
+  height: 12px;
+}
+
+.search {
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+}
+
+.cart {
+  width: 24px;
+  height: 24px;
+}
+
+.rectangle {
+display: flex;
+justify-content: space-around;
+max-width: 1440px;
+margin-left: 490px;
+margin-right: 490px;
+}
+
+.menu {
+  text-decoration: none;
+  list-style-type: none;
+font-family: 'Inter';
+font-size: 16px;
+line-height: 1.38;
+color: #000000;
+}
+
+.end_block {
+  margin-top: 155px;
+  max-width: 100%;
+  background-color: #f0f0f5;
+}
+.package_end_block{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.first_end_package,
+.second_end_package,
+.fird_end_package {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+}
+
+.title_end_block{
+  font-family: 'Inter';
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.a_end_block {
+  font-family: 'Inter';
+  font-size: 14px;
+  text-decoration: none;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.line_end_block{
+  display: flex;
+  align-items: baseline;
+  margin-top: 45px;
+}
+
+.communication_block{
+  display: flex;
+  justify-content: center;
+}
+
+.communication_package {
+  height: 24px;
+  width: 24px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter';
+  color: #595959;
+  font-size: 12px;
+}
